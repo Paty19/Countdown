@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1603793303277-ed67787545e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FudGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.one{
+    background-color: rgba(251, 248, 249, 0.82);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;  
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;  
+}
+
+.red {
+    font-size: 60px;
+    border: none;
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+
+button {
+    margin-left: 100px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 800px) {
+h1 {
+font-size: 40px;
+ }
+
+
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+    font-size: 30px;
+     }
+
+    }
+
+
+
+
+
+
+
+
+
+
+    #particles-js{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+      }
+      
