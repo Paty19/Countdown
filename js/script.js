@@ -1,3 +1,16 @@
+
+const button = document.querySelector("#myButton");
+const audio=document.querySelector("#myAudio");
+button.addEventListener("click", function() {
+if(audio.paused){
+  audio.play();
+}
+else{
+  audio.pause(); 
+}
+});
+
+
 function christmasCountdown() {
   const christmasDate = new Date("December 25, 2023 00:00");
   const now = new Date();
@@ -39,17 +52,6 @@ function merryChristmas() {
   heading.classList.add("red");
 }
 
-
-const button = document.querySelector("#myButton");
-const audio=document.querySelector("#myAudio");
-button.addEventListener("click", function() {
-if(audio.paused){
-  audio.play();
-}
-else{
-  audio.pause(); 
-}
-});
 
 
 //https://github.com/VincentGarreau/particles.js/
