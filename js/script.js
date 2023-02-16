@@ -1,14 +1,22 @@
 
-const button = document.querySelector("#myButton");
-const audio=document.querySelector("#myAudio");
-button.addEventListener("click", function() {
-if(audio.paused){
-  audio.play();
-}
-else{
-  audio.pause(); 
-}
-});
+
+const button = document.querySelector('#myButton');
+button.addEventListener('click', () => {
+    document.querySelector('#myAudio').play();
+})
+
+
+
+// const button = document.querySelector("#myButton");
+// const audio=document.querySelector("#myAudio");
+// button.addEventListener("click", function() {
+// if(audio.paused){
+//   audio.play();
+// }
+// else{
+//   audio.pause(); 
+// }
+// });
 
 
 function christmasCountdown() {
