@@ -1,22 +1,13 @@
-
-
-const button = document.querySelector('#myButton');
-button.addEventListener('click', () => {
-    document.querySelector('#myAudio').play();
-})
-
-
-
-// const button = document.querySelector("#myButton");
-// const audio=document.querySelector("#myAudio");
-// button.addEventListener("click", function() {
-// if(audio.paused){
-//   audio.play();
-// }
-// else{
-//   audio.pause(); 
-// }
-// });
+const button = document.querySelector("#myButton");
+const audio=document.querySelector("#myAudio");
+button.addEventListener("click", function() {
+if(audio.paused){
+  audio.play();
+}
+else{
+  audio.pause(); 
+}
+});
 
 
 function christmasCountdown() {
@@ -66,10 +57,10 @@ function merryChristmas() {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 1200,
+      "value": 1000,
       "density": {
         "enable": true,
-        "value_area": 1800
+        "value_area": 1000
       }
     },
     "color": {
@@ -78,7 +69,7 @@ particlesJS("particles-js", {
     "shape": {
       "type": "image",
       "stroke": {
-        "width": 7,
+        "width": 5,
         "color": "#fff"
       },
       "polygon": {
@@ -105,7 +96,7 @@ particlesJS("particles-js", {
     //   "random": true,
     //   "anim": {
     //     "enable": false,
-    //     "speed": 40,
+    //     "speed": 20,
     //     "size_min": 0.7,
     //     "sync": false
     //   }
