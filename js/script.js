@@ -51,8 +51,6 @@ function merryChristmas() {
   heading.classList.add("red");
 }
 
-
-
 //https://github.com/VincentGarreau/particles.js/
 particlesJS("particles-js", {
   "particles": {
